@@ -10,13 +10,16 @@
 }
 
 i {
+  margin: 0% 40%;
   color: red;
   font-family: weather;
-  font-size: 3em;
+  font-size: 10em;
   font-weight: normal;
   font-style: normal;
   line-height: 1.0;
   text-transform: none;
+  color: yellow;
+  
 }
 
 .icon-0:before { content: ":"; }

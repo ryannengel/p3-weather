@@ -12,6 +12,10 @@ $.simpleWeather({
       $('.temp').text(weather.temp);
       $('.city').text(weather.city);
 
+       // Display Icon
+      $('i').addClass( 'icon-' + weather.code );
+      
+      
       // Entire weather object
       console.log();
     },
@@ -84,4 +88,4 @@ var getWeather = function(location) {
 
 // VIDE PLUGIN
 
-$('#myBlock').vide('https://raw.githubusercontent.com/VodkaBears/Vide/master/examples/video/ocean.jpg');
+$('#myBlock').vide('https://github.com/ryannengel/p3-weather/blob/master/mov/rain.mov');

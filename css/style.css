@@ -1,4 +1,51 @@
 /* font-family: 'Julius Sans One', sans-serif; */
 body {
   height: 650px;
+  background: black;
+  margin-top: -3em;
 }
+
+.uhm{
+  width: 30%;
+  float: left;
+  margin-left: -13%;
+}
+
+.temp,
+.city {
+  color: white;
+  font-family: Julius Sans One, san-serif;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.temp {
+    padding-top: 20%;
+}
+
+button {
+   background-color: rgba(255, 255, 0, .7);
+  float: left;
+  margin: 10% 20%;
+   -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,1);
+      -moz-box-shadow: 2px 2px 4px 0px rgba(0,0,0,1);
+           box-shadow: 2px 2px 4px 0px rgba(0,0,0,1);
+   -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+           border-radius: 50px;
+   width: 100px;
+   height: 100px;
+   padding: 18px;
+   display: inline-block;
+   font-size: 13px;
+   font-family: Julius Sans One;
+   line-height: 60px;
+   color: rgba(0,0,0,1);
+}
+
+
+
+
+
+
+
